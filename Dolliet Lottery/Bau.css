@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Great+Vibes&display=swap');
+
+html{
+    background-image: url("Lottery.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    color: white;
+    font-size: 24px;
+    font-family: 'Great Vibes',
+    cursive;
+}
+
+h1{
+    margin: 1rem;
+    margin-top: 0;
+}
+
+.menupage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;  
+}
+
+.menubackground1{
+    background-color: white;
+    padding: 1rem;
+}
+
+.menubackground2 {
+    background-color: rgb(0, 255, 13);
+    padding: 1rem;
+}
+
+.menubackground3 {
+    background-color: yellow;
+    padding: 1rem;
+}
+
+.menubackground4 {
+    background-color: rgb(27, 27, 27);
+    padding: 3rem;
+}
+
+.dot {
+    height: 42px;
+    width: 42px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px;
+    font-size: 32px;
+    font-family: 'Righteous';
+    color: black;
+}
+
+input{
+    width: 25px;
+    margin: 5px;
+}
+
+.button1 {
+    padding: 9px;
+    cursor: pointer;
+    color: #ffff;
+    background-color: rgb(0, 255, 85);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+}
+
+.button1:hover {
+    background-color: yellow;
+}
+
+.button1:active {
+    background-color:yellow;
+    box-shadow: 0 4px #666;
+    transform: translateY(9px);
+}
+
+.ptext{
+    display: inline-block;
+    font-family: 'Righteous';
+}
+
+.none{
+    margin: 0;
+    margin-bottom: 15px;
+    color: aqua;
+}
