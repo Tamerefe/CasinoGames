@@ -63,7 +63,26 @@ def display_slot_machine(reels, jackpot_pool):
     print(Fore.BLUE + "\n\t" + ' | '.join(reels))
     print(Fore.MAGENTA + "\n" + " * " * 12)
 
+def show_legal_warning():
+    """Display legal warning before game starts"""
+    print(Fore.RED + Style.BRIGHT + "\n" + "="*60)
+    print(Fore.RED + Style.BRIGHT + "⚠️  WARNING: EDUCATIONAL SOFTWARE ONLY ⚠️")
+    print(Fore.RED + Style.BRIGHT + "="*60)
+    print(Fore.YELLOW + Style.BRIGHT + "• NO REAL MONEY INVOLVED")
+    print(Fore.YELLOW + Style.BRIGHT + "• NOT REAL GAMBLING")
+    print(Fore.YELLOW + Style.BRIGHT + "• FOR EDUCATIONAL PURPOSES ONLY")
+    print(Fore.YELLOW + Style.BRIGHT + "• AGE 18+ ONLY")
+    print(Fore.RED + Style.BRIGHT + "="*60)
+    print(Fore.CYAN + "This game demonstrates programming concepts and game mechanics.")
+    print(Fore.CYAN + "All monetary values are fictional and for educational purposes only.")
+    print(Fore.RED + Style.BRIGHT + "="*60)
+    input(Fore.GREEN + "Press Enter to continue...")
+    print("\n" + "="*60 + "\n")
+
 def slot_machine():
+    # Show legal warning first
+    show_legal_warning()
+    
     initialize_db()
     jackpot_pool, win_probability = fetch_initial_values()
     balance = 1000  # Initial balance
