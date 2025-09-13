@@ -1,0 +1,48 @@
+{
+    "name": "High Roller Casino",
+    "description": "For experienced players who want high stakes and low RTP",
+    "game_settings": {
+        "starting_balance": 2000,
+        "jackpot_reset": 1000,
+        "initial_jackpot_pool": 1000,
+        "jackpot_contribution_rate": 0.15,
+        "max_bet": 1000,
+        "min_bet": 10
+    },
+    "symbols": {
+        "weights": {
+            "🍒": 35,
+            "🍋": 30,
+            "🔔": 25,
+            "⭐": 10,
+            "7️⃣": 5,
+            "🍉": 2,
+            "💰": 1,
+            "🎁": 3,
+            "🃏": 6,
+            "x2": 4,
+            "x3": 2,
+            "x5": 1
+        }
+    },
+    "paytable": {
+        "🍒🍒🍒": 3,
+        "🍋🍋🍋": 5,
+        "🔔🔔🔔": 8,
+        "⭐⭐⭐": 15,
+        "7️⃣7️⃣7️⃣": 40,
+        "🍉🍉🍉": 80,
+        "🃏🃏🃏": 150
+    },
+    "rtp_settings": {
+        "target_rtp": 85.0,
+        "house_edge": 15.0,
+        "variance": "high",
+        "hit_frequency": 0.15
+    },
+    "bonus_settings": {
+        "bonus_spins": 5,
+        "bonus_multiplier": 2.0,
+        "bonus_trigger_probability": 0.03
+    }
+}

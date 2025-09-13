@@ -1,0 +1,96 @@
+{
+    "game_settings": {
+        "starting_balance": 1000,
+        "jackpot_reset": 500,
+        "initial_jackpot_pool": 500,
+        "jackpot_contribution_rate": 0.1,
+        "max_bet": 500,
+        "min_bet": 1
+    },
+    "symbols": {
+        "weights": {
+            "🍒": 30,
+            "🍋": 25,
+            "🔔": 20,
+            "⭐": 15,
+            "7️⃣": 7,
+            "🍉": 3,
+            "💰": 1,
+            "🎁": 5,
+            "🃏": 8,
+            "x2": 5,
+            "x3": 3,
+            "x5": 2
+        },
+        "special_symbols": {
+            "wild": "🃏",
+            "bonus": "🎁",
+            "jackpot": "💰",
+            "multipliers": [
+                "x2",
+                "x3",
+                "x5"
+            ]
+        }
+    },
+    "paytable": {
+        "🍒🍒🍒": 8,
+        "🍋🍋🍋": 12,
+        "🔔🔔🔔": 18,
+        "⭐⭐⭐": 35,
+        "7️⃣7️⃣7️⃣": 80,
+        "🍉🍉🍉": 200,
+        "🃏🃏🃏": 500
+    },
+    "rtp_settings": {
+        "target_rtp": 94.5,
+        "house_edge": 5.5,
+        "variance": "medium",
+        "hit_frequency": 0.25
+    },
+    "bonus_settings": {
+        "bonus_spins": 3,
+        "bonus_multiplier": 1.5,
+        "bonus_trigger_probability": 0.05
+    },
+    "jackpot_settings": {
+        "jackpot_trigger": "💰💰💰💰💰",
+        "mini_jackpot_trigger": "💰💰💰",
+        "mini_jackpot_amount": 100
+    },
+    "difficulty_presets": {
+        "easy": {
+            "target_rtp": 96.0,
+            "house_edge": 4.0,
+            "starting_balance": 1500
+        },
+        "medium": {
+            "target_rtp": 94.5,
+            "house_edge": 5.5,
+            "starting_balance": 1000
+        },
+        "hard": {
+            "target_rtp": 92.0,
+            "house_edge": 8.0,
+            "starting_balance": 800
+        },
+        "casino": {
+            "target_rtp": 88.0,
+            "house_edge": 12.0,
+            "starting_balance": 500
+        }
+    },
+    "animation_settings": {
+        "spin_speed": 0.1,
+        "slow_down_factor": 0.15,
+        "final_slow_speed": 0.2,
+        "blink_count": 3,
+        "enable_animations": true
+    },
+    "display_settings": {
+        "show_jackpot_pool": true,
+        "show_rtp_info": true,
+        "show_analytics_menu": true,
+        "colored_output": true
+    }
+}

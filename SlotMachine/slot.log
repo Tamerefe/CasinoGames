@@ -1,0 +1,8 @@
+2025-09-13 19:57:27 - INFO - Spin: reels=['\U0001f34b', '\U0001f352', '\U0001f4b0', '\u2b50', 'x3'] bet=300 win=0 balance=700 jackpot=1117.0
+2025-09-13 20:26:12 - INFO - Spin: reels=['\u2b50', '\U0001f352', '\U0001f352', '\u2b50', '\U0001f352'] bet=55 win=0 balance=945 jackpot=1122.5
+2025-09-13 20:26:40 - INFO - Spin: reels=['\U0001f34b', '\U0001f514', '\u2b50', '\u2b50', '\U0001f352'] bet=1 win=0 balance=944 jackpot=1122.6
+2025-09-13 20:27:27 - INFO - Spin: reels=['\U0001f4b0', '\U0001f514', '\U0001f352', '\U0001f0cf', 'x5'] bet=445 win=0 balance=499 jackpot=1167.1
+2025-09-13 20:33:03 - INFO - Spin: reels=['\U0001f514', '\U0001f34b', '\U0001f0cf', '\U0001f352', '\U0001f352'] bet=50 win=0 balance=950.0 jackpot=1172.1
+2025-09-13 20:34:08 - INFO - Spin: reels=['\U0001f352', '7\ufe0f\u20e3', '\U0001f349', '\U0001f381', '\U0001f34b'] bet=10 win=bonus balance=940.0 jackpot=1173.1
+2025-09-13 20:51:14 - ERROR - Error calculating analytics: float() argument must be a string or a real number, not 'NoneType'
+2025-09-13 20:53:39 - ERROR - Error calculating analytics: float() argument must be a string or a real number, not 'NoneType'

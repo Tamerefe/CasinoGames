@@ -1,0 +1,55 @@
+{
+    "name": "Beginner Friendly",
+    "description": "Perfect for new players with high RTP and frequent wins",
+    "game_settings": {
+        "starting_balance": 1500,
+        "jackpot_reset": 300,
+        "initial_jackpot_pool": 300,
+        "jackpot_contribution_rate": 0.05,
+        "max_bet": 100,
+        "min_bet": 1
+    },
+    "symbols": {
+        "weights": {
+            "🍒": 25,
+            "🍋": 20,
+            "🔔": 15,
+            "⭐": 12,
+            "7️⃣": 8,
+            "🍉": 5,
+            "💰": 2,
+            "🎁": 8,
+            "🃏": 12,
+            "x2": 8,
+            "x3": 5,
+            "x5": 3
+        }
+    },
+    "paytable": {
+        "🍒🍒🍒": 8,
+        "🍋🍋🍋": 12,
+        "🔔🔔🔔": 18,
+        "⭐⭐⭐": 30,
+        "7️⃣7️⃣7️⃣": 75,
+        "🍉🍉🍉": 150,
+        "🃏🃏🃏": 300
+    },
+    "rtp_settings": {
+        "target_rtp": 97.5,
+        "house_edge": 2.5,
+        "variance": "low",
+        "hit_frequency": 0.35
+    },
+    "bonus_settings": {
+        "bonus_spins": 4,
+        "bonus_multiplier": 1.8,
+        "bonus_trigger_probability": 0.08
+    },
+    "animation_settings": {
+        "spin_speed": 0.15,
+        "slow_down_factor": 0.2,
+        "final_slow_speed": 0.3,
+        "blink_count": 5,
+        "enable_animations": true
+    }
+}
